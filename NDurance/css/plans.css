@@ -1,0 +1,31 @@
+.courses{margin-top: 1rem;}
+
+
+.newcourses{
+    margin-top:10rem;
+}
+.newcourses__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2rem;
+}
+
+.newcourse{
+    background: var(--color-bg1);
+    text-align: center;
+    border: 1px solid transparent;
+    transition:var(--transition) ;
+}
+
+.newcourse:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+.newcourse__info{
+    padding: 2rem;
+}
+.newcourse__info p{
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+}
