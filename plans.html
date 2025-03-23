@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Plans</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/plans.css">
+
+    <!-- Iconscout CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!--Google Fonts MonsterRat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,800;1,500;1,600&display=swap" rel="stylesheet">
+
+    <style>
+        body{ background-image: url("./images/bg-texture.jpg");}
+    </style>
+</head>
+<body>
+
+    <!--*************************************   NAVBAR   ******************************************************-->
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"> <h4>NDurance</h4></a>
+            <ul class="nav__menu">
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="plans.html">Plans</a></li>
+                <li> <a href="contact.html">Contact</a></li>               
+            </ul>
+            <button id="open-menu-btn"> <i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"> <i class="uil uil-times-circle"></i></button>
+        </div>
+    </nav>
+    
+    
+    <!--*************************************   Latest  ******************************************************-->
+    <section class="newcourses">
+        <h2>New Workouts</h2>
+
+        <div class="container newcourses__container">
+            <article class="newcourse">
+                <div class="newcourse__img">
+                    <img src="./images/new1.webp">
+                </div>
+                <div class="newcourse__info">
+                    <h4>45-Minute Kettlebell and Bodyweight Workout for Fat Loss</h4>
+                    <p>This simple, yet effective full body workout maximizes fat loss and overall fitness performance. With very minimal equipment you can burn calories and start moving better.</p>
+                    <a href="https://www.muscleandstrength.com/workouts/45-minute-kettlebell-bodyweight-fat-loss-workout" class="btn btn-primary">Let's Start</a>
+                </div>
+            </article>
+
+            <article class="newcourse">
+                <div class="newcourse__img">
+                    <img src="./images/new2.webp">
+                </div>
+                <div class="newcourse__info">
+                    <h4>6-Week Women’s Full Body Strength and Conditioning Workout</h4>
+                    <p>This circuit-style workout will help you torch calories and feel stronger, in a short amount of time. Try this 3-day full body workout for efficient lean muscle gains!</p>
+                    <a href="https://www.muscleandstrength.com/workouts/6-week-womens-strength-and-conditioning" class="btn btn-primary">Let's Start</a>
+                </div>
+            </article>
+
+            <article class="newcourse">
+                <div class="newcourse__img">
+                    <img src="./images/new3.webp">
+                </div>
+                <div class="newcourse__info">
+                    <h4>15-Minute Core Conditioning Workout You Can Do Anywhere</h4>
+                    <p>Train your abs effectively and efficiently! This versatile workout can be done with just your bodyweight and should be incorporated into your training plan 2-3 times per week.</p>
+                    <a href="https://www.muscleandstrength.com/workouts/15-minute-core-conditioning-workout" class="btn btn-primary">Let's Start</a>
+                </div>
+            </article>
+
+            <article class="newcourse">
+                <div class="newcourse__img">
+                    <img src="./images/new4.webp">
+                </div>
+                <div class="newcourse__info">
+                    <h4>8-Week Shoulder Workout to Build Cannonball Delts</h4>
+                    <p>Are you ready to step up your shoulder training? This intermediate program can be completed once every 5-7 days for 8 weeks to help your delts reach their true potential.</p>
+                    <a href="https://www.muscleandstrength.com/workouts/8-week-cannonball-delts" class="btn btn-primary">Let's Start</a>
+                </div>
+            </article>
+
+            <article class="newcourse">
+                <div class="newcourse__img">
+                    <img src="./images/new5.jpg">
+                </div>
+                <div class="newcourse__info">
+                    <h4>8-Week Knee-Friendly Quad Workout</h4>
+                    <p>This program can help you build bigger legs without taking a big toll on the knees. Incorporate this workout into your existing training plan once a week for massive gains.</p>
+                    <a href="https://www.muscleandstrength.com/workouts/8-week-knee-friendly-quad-workout" class="btn btn-primary">Let's Start</a>
+                </div>
+            </article>
+
+            <article class="newcourse">
+                <div class="newcourse__img">
+                    <img src="./images/new6.webp">
+                </div>
+                <div class="newcourse__info">
+                    <h4>3 Dumbbell and Bodyweight Chest Workouts (No Bench Needed!)</h4>
+                    <p>No bench? No problem. You can still get a solid pec pump using just your bodyweight and dumbbells. Try one of these workouts on your next chest day.</p>
+                    <a href="https://www.muscleandstrength.com/workouts/dumbbell-bodyweight-chest-workout" class="btn btn-primary">Let's Start</a>
+                </div>
+            </article>
+
+
+            
+
+
+        </div>
+
+    </section>
+
+    <!--*************************************   NAVBAR   ******************************************************-->
+
+    <!--*************************************   Plans   ******************************************************-->
+        <section class="courses">
+            <h2>Our Popular Plans</h2>
+            <div class="container courses__container">
+                <article class="course">
+                    <div class="course__img">
+                    <img src="./images/popularplans1.jpg">
+                    </div>
+                    <div class="course__info">
+                    <h4>10 Week Mass Building Program</h4>
+                    <p>This workout is designed to increase your muscle mass as much as possible in 10 weeks. Works each muscle group hard once per week using mostly heavy compound exercises.</p>
+                    <a href="https://www.muscleandstrength.com/workouts/10-week-mass-building-program.html" class="btn btn-primary">Let's Go</a>
+                    </div>
+                </article>
+    
+                <article class="course">
+                    <div class="course__img">
+                    <img src="./images/popularplans2.jpg">
+                    </div>
+                    <div class="course__info">
+                    <h4>12 Week Fat Destroyer: Complete Fat Loss Workout & Diet Program</h4>
+                    <p>This is a complete 12 week program to help you get ripped. Feature includes detailed diet plan and cardio schedule, along with a 4 day upper/lower muscle building split.</p>
+                    <a href="https://www.muscleandstrength.com/workouts/12-week-fat-destroyer" class="btn btn-primary">Let's Go</a>
+                    </div>
+                </article>
+    
+                <article class="course">
+                    <div class="course__img">
+                    <img src="./images/popularplans3.jpg">
+                    </div>
+                    <div class="course__info">
+                    <h4>Muscle & Strength's 30 Day Workout Plan For Women</h4>
+                    <p>Looking for the best place to start working towards a leaner, solid, and stronger body? This thorough workout routine is specifically designed to get you there!</p>
+                    <a href="https://www.muscleandstrength.com/workouts/muscle-and-strength-30-day-womens-workout" class="btn btn-primary">Let's Go</a>
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course__img">
+                    <img src="./images/popularplans4.jpg">
+                    </div>
+                    <div class="course__info">
+                    <h4>Power Hypertrophy Upper Lower (P.H.U.L.) Workout</h4>
+                    <p>Build both size and strength in this 4 day split based around basic compound movements. Get the best of both worlds with bodybuilding and powerlifting.</p>
+                    <a href="https://www.muscleandstrength.com/workouts/phul-workout" class="btn btn-primary">Let's Go</a>
+                    </div>
+                </article>
+    
+                <article class="course">
+                    <div class="course__img">
+                    <img src="./images/popularplans5.jpg">
+                    </div>
+                    <div class="course__info">
+                    <h4>Muscle & Strength’s 12 Week Women’s Workout Program</h4>
+                    <p>This 12 week women's specific training program is perfect for any healthy woman who is looking to transform her body through a good weight lifting program.</p>
+                    <a href="https://www.muscleandstrength.com/workouts/muscle-and-strength-womens-workout" class="btn btn-primary">Let's Go</a>
+                    </div>
+                </article>
+    
+                <article class="course">
+                    <div class="course__img">
+                    <img src="./images/popularplans6.jpg">
+                    </div>
+                    <div class="course__info">
+                    <h4>Dumbbell Only Home Or Gym Full Body Workout</h4>
+                    <p>Short on equipment? No worries! This dumbbell only workout can be used at home or in the gym for building muscle mass. You can also use this as a muscle shock workout to mix things up.
+                    </p>
+                    <a href="https://www.muscleandstrength.com/workouts/dumbbell-only-home-or-gym-fullbody-workout.html" class="btn btn-primary">Let's Go</a>
+                    </div>
+                </article>
+
+
+            </div>
+        </section>
+
+
+    
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <!--*************************************   Footer  ******************************************************-->
+ <footer>
+    <div class="container footer__container">
+        <div class="footer__1">
+        <a href="index.html"> <img src="./images/logocolor.png"></a>
+        </div>
+
+        <div class="footer__2">
+            <h4>Permalinks</h4>
+            <ul class="permalinks">
+            <li> <a href="index.html">Home</a> </li>
+            <li> <a href="about.html">About</a></li>
+            <li> <a href="plans.html">Plans</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__3">
+            <h4>Privacy</h4>
+            <ul class="privacy">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Refund Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__4">
+            <h4>Contact Us</h4>
+            <div>
+                <p>+91 93502 90649</p>
+                <p>uietcse2024SurenderSingh@gmail.com</p>
+            </div>
+
+            <ul class="footer__socials">
+                <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+                <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                <li><a href="#"><i class="uil uil-linkedin-alt"></i></a></li>
+            </ul>
+        </div>
+             
+    </div>
+    <div class="footer__copyright">
+        <small>Copyright &copy;  Made in Pabnawa</small>
+    </div>   
+</footer>
+
+<script src="./main.js"></script>
+
+
+</body>
+</html>
